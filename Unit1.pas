@@ -46,6 +46,7 @@ type
     DefaultFolder: String;
     XLSX: Boolean;
     Progress: TProgress;
+    ODS: Boolean;
   end;
 
 
