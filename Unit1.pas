@@ -28,6 +28,7 @@ type
     FieldName: String;
     Caption: String;
     CaptionF: TFont;
+    Mask: String;
   end;
 
 type
@@ -41,6 +42,7 @@ type
     TClientDataSet: TClientDataSet;
     TCampos: Array of TFields;
     Titulo: Array[1..3] of TTitulo;
+    AutoFilter: Boolean;
     AutoSave: Boolean;
     AutoOpen: Boolean;
     DefaultFolder: String;
